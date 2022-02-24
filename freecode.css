@@ -1,0 +1,257 @@
+*
+{
+padding:0;
+margin:0;
+}
+body{
+    background-image: url(nayy-phones5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /*background:repeating-linear-gradient(45deg,red 80px,green 40px);
+*/
+
+
+}
+.fullcard{
+    border: solid;
+    background-color:green;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-color: lightseagreen;
+    border-right-color: firebrick;
+    border-left-color: firebrick;
+    border-top-color: whitesmoke;
+    border-bottom-color: whitesmoke; 
+    position:relative;
+    top:80px;
+    box-shadow:5px 5px 5px 5px
+    rgba(0, 100, 95, 0.9);
+    
+}
+ .fullcard,.cardcontent,.cardtext h1{
+    color:gold;
+}
+.cardcontent{
+    font-family:monospace;
+    font-size: large;
+    text-align: center;
+}
+
+
+.fullcard{
+    animation-name:welcome;
+    animation-duration: 1s;
+    animation-direction: reverse;
+    animation-iteration-count:3;
+}
+@keyframes welcome {
+    40%{
+        background-color:red;
+    }
+    50%{
+        background-color:orange;
+    }
+    60%{
+        background-color:yellow;
+    }
+    70%{
+        background-color:green;
+    }
+    80%{
+        background-color:blue;
+    }
+    90%{
+        background-color:indigo;
+    }
+    100%{
+        background-color:violet;
+    }
+   
+}
+.border-bar{
+    border: 4px solid;
+    border-color:whitesmoke;
+    height:200px;
+    background-color:green;
+    opacity:0.789;
+    overflow-inline: hidden;
+    position:relative;
+    bottom:50px;
+
+}
+.border-content-style ul{
+    display:inline-flex;
+
+}
+.border-content-style ul li{
+    padding-top:20px;
+    padding-right:20px;
+    margin-top: 5px;
+    list-style:none;
+}
+.home-icon{
+    font-size:20px;
+    float:left;
+
+}
+.soc-media{
+    font-size:20px;
+    float:right;
+
+}
+
+
+.fa{
+    color:white;
+}
+.fa:hover{
+    color:blue;
+}
+
+.active{
+    color:green;
+}
+.active:hover{
+    color:blue;
+}
+input{
+    margin-left:2px;
+    height:20px;
+    width:300px;
+    background-color: white;
+}
+button{
+    border-style: none;
+    border-radius:5px;
+    height:20px;
+    position:relative;
+    right: 4.5px;
+}
+
+main{
+    background-color: green;
+    margin-top:6px;
+}
+main .first-box div:hover{
+    transform:scale(1.0);
+    text-align: left;
+    opacity: 0.4;
+    cursor:pointer;
+}
+
+main .second-box div:hover{
+    transform:scale(1.0);
+    background-color: black;
+    text-align: center;
+
+}
+.first-box div{
+    display: inline-block;
+    overflow-block: hidden;
+    text-align:center;
+    height:250px;
+    width:200px;
+    margin:30px;
+    box-shadow:5px 5px 5px 5px
+    black;
+    opacity:0.9;
+    
+}
+
+
+.first-box div a{
+    overflow:hidden;
+    position:relative;
+    top:200px;
+    text-transform:uppercase;
+    text-decoration: none;
+    color:black;
+    font-size:20px;
+}
+
+.box1{
+    background-image:url(ballon-dor.jpg);
+    width:200px;
+    height:500px;
+    object-fit: cover;
+    
+}
+.box2{
+    background-color: white;
+}
+.box3{
+    background-color: white;
+}
+.box4{
+    background-color: white;
+}
+.box5{
+    background-color: white;
+}
+.second-box div{
+    display: inline-block;
+    height:250px;
+    width:200px;
+    margin:30px;
+    box-shadow:5px 5px 5px 5px
+    white;
+    opacity:0.9;
+    
+   
+}
+.box6{
+    background-color: white;
+}
+.box7{
+    background-color: white;
+}
+.box8{
+    background-color: white;
+}
+.box9{
+    background-color: white;
+}
+.box10{
+    background-color: white;
+}
+p{
+    color:blue;
+    text-align:center;
+}
+.border-bar, .soc-media li{
+    position:relative;
+}
+
+.border-bar,.soc-media ul{
+    display:none;
+    
+    
+}
+.border-bar,.soc-media li:hover >ul{
+    display:block;
+    
+}
+.border-bar , .soc-media li a:hover{
+
+    transition-duration: 4s;
+    color:blue;
+}
+div div ul li ul{
+    background-color: white;
+    
+    border-radius:4px;
+    position:absolute;
+    right:20px;
+   
+    
+}
+.border-bar , .soc-media li a{
+    text-decoration:none;
+    text-align: center;
+  
+}
+div div ul li ul li a{
+    font-size: small;
+   
+}
